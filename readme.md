@@ -26,6 +26,9 @@ hahahaha
 ## 2263 : 해밍경로
 - dynamic
 
+## 2438 : 탭댄스(tap)
+- seg tree
+
 ## 2635 : 막대기
 - dynamic
 
