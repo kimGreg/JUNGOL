@@ -20,6 +20,9 @@ hahahaha
 ## 1844 : 기합
 - seg tree
 
+## 1883 : 숫자 맞추기
+- dynamic
+
 ## 1919 : 가까운 짝 찾기(Pairs) - medium
 - seg tree
 
