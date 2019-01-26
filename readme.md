@@ -35,6 +35,9 @@ hahahaha
 ## 2635 : 막대기
 - dynamic
 
+## 2655 : 웜뱃(wombats)
+- seg tree/dynamic
+
 ## 3233 : 공룡 발자국
 - gyometriy
 
