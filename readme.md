@@ -41,6 +41,9 @@ hahahaha
 ## 2727 : 여객선2
 - seg tree(lazy propagation)
 
+## 2798 : 금광
+- seg tree
+
 ## 3233 : 공룡 발자국
 - gyometriy
 
