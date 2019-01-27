@@ -38,6 +38,9 @@ hahahaha
 ## 2655 : 웜뱃(wombats)
 - seg tree/dynamic
 
+## 2727 : 여객선2
+- seg tree(lazy propagation)
+
 ## 3233 : 공룡 발자국
 - gyometriy
 
