@@ -1,6 +1,8 @@
-# jungol.co.kr 문제 목록
+jungol.co.kr 문제 목록
+=====================
 
 hahahaha
+----------------
 
 ## 1151 : convexhull
 - convexhull
@@ -31,6 +33,13 @@ hahahaha
 
 ## 2438 : 탭댄스(tap)
 - seg tree
+
+## 2588 : 회전 테이블
+- dynamic
+
+## 2611 : 개구리
+- seg tree
+- set
 
 ## 2635 : 막대기
 - dynamic
