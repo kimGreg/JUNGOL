@@ -19,6 +19,9 @@ hahahaha
 ## 1586 : 이상한 극장 2
 - seg tree
 
+## 1080 : 의좋은 형제
+- dynamic
+
 ## 1844 : 기합
 - seg tree
 
@@ -33,6 +36,9 @@ hahahaha
 
 ## 2438 : 탭댄스(tap)
 - seg tree
+
+## 2502 : 모둠
+- dynamic
 
 ## 2588 : 회전 테이블
 - dynamic
