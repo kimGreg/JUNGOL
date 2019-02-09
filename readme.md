@@ -10,6 +10,9 @@ hahahaha
 ## 1285 : 물먹는 용(Enter the dragon)
 - set/map or union find
 
+## 1479 : 초고속철도
+- dynamic
+
 ## 1554 : 모바일
 - 2d seg tree(bit)
 
