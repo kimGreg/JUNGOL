@@ -18,7 +18,7 @@ public;
 vector<vector2> point, convHull;
 
 void getconvexhull(){
-	swap(point[0], min_element(point.begin(), point.end(), [](vector2
+	swap(point[0], min_element(point.begin(), point.end(), [](vector2 & V
 
 int main(){
 	int n;
