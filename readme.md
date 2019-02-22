@@ -4,11 +4,17 @@ jungol.co.kr 문제 목록
 hahahaha
 ----------------
 
+## 1083 : 숫자박스
+- dynamic
+
 ## 1151 : convexhull
 - convexhull
 
 ## 1285 : 물먹는 용(Enter the dragon)
 - set/map or union find
+
+## 1389 : 수열 축소
+- dynamic
 
 ## 1479 : 초고속철도
 - dynamic
@@ -16,13 +22,23 @@ hahahaha
 ## 1554 : 모바일
 - 2d seg tree(bit)
 
+## 1558 : DNA 유사도
+- dynamic
+
+## 1568 : 직사각형
+- plane sweeping
+- seg tree
+
 ## 1575 : 줄세우기 2
 - seg tree
 
 ## 1586 : 이상한 극장 2
 - seg tree
 
-## 1080 : 의좋은 형제
+## 1635 : Palindrome
+- dynamic
+
+## 1808 : 의좋은 형제
 - dynamic
 
 ## 1844 : 기합
@@ -62,6 +78,10 @@ hahahaha
 ## 2798 : 금광
 - seg tree
 
+## 3079 : 문명
+- bfs
+- union find
+
 ## 3233 : 공룡 발자국
 - gyometriy
 
@@ -69,3 +89,9 @@ hahahaha
 
 ## 3276 : 택배 시뮬레이션
 - seg tree(lazy propagation)
+
+## 3287 : 스위치2
+- seg tree(lazy propagation)
+
+## 3288 : 기둥이 4개인 하노이탑(경우의 수)
+- math
