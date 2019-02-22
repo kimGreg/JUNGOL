@@ -1,11 +1,7 @@
 #include <iostream>
 #include <vector>
 
-<<<<<<< HEAD
-int arr1[1010], arr2[1010];
-=======
 int arr1[1010], arr2[1010], k, sz1, sz2;
->>>>>>> 457f8de4132511f017557f0ee8efeddee3d283f8
 
 int main(){
 	char temp;
