@@ -1,0 +1,88 @@
+#include <cstdio>
+#include <queue>
+using namespace std;
+
+int arr[110][110], A[110][110];
+int capa[400][400], flow[400][400];
+
+int main(){
+	int n, m;
+	scanf("%d %d", &n, &m);
+	for(int i=0; i<m; i++){
+		int a, b;
+		scanf("%d %d", &a, &b);
+		arr[a][b] = 1;
+	}
+	int cnt = 1;
+	for(int i=1; i<n+n; i++){
+		int x, y;
+		if(i <= n){
+			x = 1;
+			y = n-i+1;
+		}else{
+			y = 1;
+			x = i-n+1;
+		}
+
+		while(x <= n && y <= n){
+			if(arr[x][y] == 1) cnt++;
+			else{
+				capa[0][cnt] = 1;
+				A[x][y] = cnt;
+			}
+			x++; 
+			y++;
+		}
+		cnt++;
+	}
+
+	int temp = cnt;
+	for(int i=1; i<n+n; i++){
+		int x, y;
+		if(i <= n){
+			y = 1
+			x = i;
+		}else{
+			x = n;
+			y = i-n+1;
+		}
+
+		while(1 <= x && x <= n && 1<= y &&  y <= n){
+			if(arr[x][y] == 1) cnt++;
+			else capa[A[x][y]][cnt] = 1;
+			x--;
+			y++;
+		}
+		cnt++;
+	}
+	for(int i=temp; i<cnt; i++) capa[i][cnt] = 1;
+	
+	// 0 -> cnt 유량구하기
+
+	int ans = 0;
+	while(1){
+		fill(path, path+cnt+1, -1);
+		queue<int> que;
+		que.push(0);
+		while(!que.empty()){
+			int now = que.front();
+			que.pop();
+			for(int i=0; i<=cnt; i++){
+				if(capa[now][i] - flow[now][i] >  0 && path[i] == -1){
+					path[i] = now;
+					que.push(i);
+				}
+			}
+		}
+		if(path[cnt] == -1) break;
+
+		for(int i = cnt; i != 0; i = path[i]){
+			flow[path[i]][i]++;
+			flow[i][path[i]]--;
+		}
+		ans++;
+	}
+	printf("%d", ans);
+
+	return 0;
+}
