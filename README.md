@@ -1,6 +1,30 @@
 JUNGOL problem sets
 ===
 
+## Advanced Coder
+
+### bit operation
+
+### Divide and Conquer
+
+### Data Structure
+
+[3293]() : 비트연산1
+
+### Range query
+
+### DFS
+
+### BFS
+
+### Graph algorithm
+
+### Dynamic programming 1
+
+### Dynamic programming 2
+
+### something else
+
 ## Specialist Coder
 
 ### Data structure
