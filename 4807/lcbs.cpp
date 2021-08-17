@@ -15,9 +15,9 @@ int t, SA[1000100], g[1000100], tg[1000100], RANK[1000100], LCP[1000100], L[1000
 vector<int> H[1000100];
 
 void init(){
-  for(int i=0; i<=2*lenA; i++) H[i].clear();
+  for(int i=0; i<=2*lenA+2; i++) H[i].clear();
   for(int i=0; i<=lent; i++){
-    SA[i] = g[i] = tg[i] = RANK[i] = LCP[i] = L[i] = 0;
+    L[i] = 0;
   }
 }
 
